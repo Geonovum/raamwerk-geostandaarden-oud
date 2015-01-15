@@ -29,7 +29,7 @@ De laatste jaren heeft het gebruik van geo-informatie in alledaagse webtoepassin
 
 De kracht van geo-informatie zit in het gemak waarmee op basis van locatie verschillende typen van informatie aan elkaar gerelateerd en met elkaar vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen worden genomen. 
 
-[FiguurThemaRelaties](FiguurThemaRelaties.png)
+![FiguurThemaRelaties](FiguurThemaRelaties.png)
 
 *Figuur 1 - Thema relaties op basis van lokatie*
 
@@ -56,7 +56,7 @@ Voor het oplossen van de ruimtelijke vraagstukken uit de vorige paragraaf is toe
 ### 2.3 Geo-standaarden: het overzicht
 Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige paragraaf, is het meestal nodig om informatiebronnen van verschillende organisaties met elkaar te combineren. Dit is niet mogelijk zonder standaarden. De afgelopen twintig jaar is internationaal en nationaal gewerkt aan een set van standaarden die het mogelijk maakt om de kracht van geo-informatie ten volle te benutten. 
 
-[FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
+![FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
 
 *Figuur 2 - Geo-standaarden in samenhang*
 
