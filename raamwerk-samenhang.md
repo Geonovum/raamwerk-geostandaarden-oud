@@ -2,7 +2,7 @@
 
 **versie:** 2.4 - concept
 
-**versiebeschrijving:** Het Raamwerk is teruggebracht tot een sterk afgeslankte vorm waarin de samenhang van de standaarden centraal staat. De actuele, aan wijziging onderhevige informatie is verhuisd naar de website van Geonovum.
+**versiebeschrijving:** Het Raamwerk is teruggebracht tot een sterk afgeslankte vorm waarin de samenhang van de standaarden centraal staat. De actuele, aan wijziging onderhevige informatie is verhuisd naar de website van Geonovum. Hoofdstuk 1 biedt  achtergrondinformatie over het document, hoofdstuk 2 beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het document. Voor alle verdieping en actuele zaken, zoals lijsten van geldende standaarden, bevat het verwijzingen naar de website.
 
 ## Hoofdstuk 1 - Inleiding
 ### 1.1	Doelgroep en doel van dit Raamwerk van geo-standaarden
@@ -56,42 +56,56 @@ Bijvoorbeeld de *‘Waar?’* vraag van de school vereist tenminste:
 ### 2.2 Geo-standaarden: het overzicht
 Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige paragraaf, is het meestal nodig om informatiebronnen van verschillende organisaties met elkaar te combineren. Dit is niet mogelijk zonder standaarden. De afgelopen twintig jaar is internationaal en nationaal gewerkt aan een set van standaarden die het mogelijk maakt om de kracht van geo-informatie ten volle te benutten. 
 
-Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn verschillende dingen nodig:
+[FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
 
+*Figuur 2 - Geo-standaarden in samenhang*
+
+Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn verschillende dingen nodig, zoals Figuur 2 laat zien:
 * Het beschrijven van informatiebronnen met **metadata**, zodat de informatiebronnen **vindbaar** worden. 
 * Het beschrijven van de inhoud van informatiebronnen middels een **informatiemodel**, zodat de **semantiek** en **structuur** bekend zijn. 
 * Het definiëren van **uitwisselformaten**, zodat duidelijk is in wat voor **vorm** de geo-informatie wordt uitgewisseld. 
 * Het inrichten van **web services**, zodat geo-informatie via het web kan worden **geraadpleegd**. 
 * Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
 
- Figuur 2 laat zien welke rollen standaarden spelen in de werking van een GII. 
-
-[FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
-
-*Figuur 2 - Geo-standaarden in samenhang*
-
+#### Metadata
 Allereerst moet de informatie, die via de GII wordt verspreid, beschreven worden. Dit gebeurt op twee niveaus: het niveau van de dataset en het niveau van de individuele informatie-objecten. Karakteristieken van datasets, zoals de eigenaar en de actualiteit, worden beschreven met behulp van **metadata**. Metadata wijst de weg in onze informatiehuishouding, voorkomt dubbele inwinning en beheer van data en zorgt ervoor dat geo-informatie snel kan worden gevonden.
 
 Voor meer informatie over metadata en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/metadata
 
+#### Informatiemodellen
 De individuele informatie-objecten worden beschreven met behulp van een **informatiemodel**. Dit ziet u rechtsonder in de figuur. De semantiek (betekenis) en de structuur van de informatie moet bekend zijn zodat gebruikers de informatie optimaal kunnen benutten. Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de afspraken over begrippen en definities van gegevens binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling van informatie.
 
 Voor meer informatie over informatiemodellen en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/informatiemodellen
 
+#### Uitwisselformaten
 Op basis van deze informatiemodellen worden **uitwisselformaten**  gedefinieerd. Waar een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat beschrijft de vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te representeren en uit te wisselen. Een algemene onderverdeling is te maken in vectordata, rasterdata en sensordata. Voor deze drie representatievormen zijn er verschillende standaard uitwisselformaten beschikbaar.
 
 Voor meer informatie over uitwisselformaten en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/uitwisselformaten
 
+### Services
 Om de geo-informatie, die conform een bepaald uitwisselformaat beschikbaar wordt gesteld, te kunnen vinden, raadplegen, en downloaden, zijn er **web services** ingericht in een GII. Er zijn verschillende soorten services: de discovery service voor het vinden van geo-informatie op basis van metadata; bijvoorbeeld de view service voor het bekijken van geo-informatie op het web, en de download service om geo-informatie te verkrijgen.  
 
 Voor meer informatie over services en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/services
 
+#### Visualisatie
 Om de geo-informatie visueel te presenteren op een kaart worden er **visualisatieregels** opgesteld. Denk hierbij bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een een standaard visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een view service. 
 
 Voor meer informatie over visualisatie en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/visualisatie
+
+#### WORK IN PROGRESS - Overige verwijzingen naar de website die nodig zijn 
+
+Op de website van Geonovum staat de lijst van actuele, te hanteren geo-standaarden. Zie: 
+
+[Te hanteren geo-standaarden](http://www.geonovum.nl/onderwerpen/geo-standaarden) (TODO de pagina moet nog worden aangemaakt)
+
+[Verdiepingsdocument Ruimtelijke referentie-systemen](http://www.geonovum.nl/onderwerpen/coördinaatsystemen/algemeen-coördinaatsystemen) (TODO het document Ruimtelijke Referentiesystemen moet nog op de website worden geplaatst, daarna moet deze link naar dat document verwijzen)
+
+[Verdiepingsdocument Metadata](http://www.geonovum.nl/onderwerpen/metadata/algemeen-metadata) (TODO het document over metadata moet nog op de website worden geplaatst, daarna moet deze link naar dat document verwijzen)
+
+[Verdiepingsdocument Informatiemodellen](http://www.geonovum.nl/onderwerpen/informatiemodellen/algemeen-informatiemodellen) (TODO het document over metadata moet nog op de website worden geplaatst, daarna moet deze link naar dat document verwijzen)
 
