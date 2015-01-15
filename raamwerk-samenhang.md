@@ -62,10 +62,11 @@ Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige p
 
 Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn verschillende dingen nodig, zoals Figuur 2 laat zien:
 * Het beschrijven van informatiebronnen met **metadata**, zodat de informatiebronnen **vindbaar** worden. 
-* Het beschrijven van de inhoud van informatiebronnen middels een **informatiemodel**, zodat de **semantiek** en **structuur** bekend zijn. 
-* Het definiëren van **uitwisselformaten**, zodat duidelijk is in wat voor **vorm** de geo-informatie wordt uitgewisseld. 
 * Het inrichten van **web services**, zodat geo-informatie via het web kan worden **geraadpleegd**. 
 * Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
+* Het beschrijven van de inhoud van informatiebronnen middels een **informatiemodel**, zodat de **semantiek** en **structuur** bekend zijn. 
+* Het definiëren van **uitwisselformaten**, zodat duidelijk is in wat voor **vorm** de geo-informatie wordt uitgewisseld. 
+* Het koppelen van geo-informatie aan een plek op het aardoppervlak met behulp van een **ruimtelijk referentiesysteem**.
 
 Voor al deze componenten van een GII zijn standaarden beschikbaar. 
 
@@ -99,9 +100,12 @@ Op basis van deze informatiemodellen worden **uitwisselformaten**  gedefinieerd.
 Voor meer informatie over uitwisselformaten en de actuele standaarden, zie:
 http://www.geonovum.nl/onderwerpen/uitwisselformaten
 
+### Ruimtelijke referentiesystemen
+Geo-informatie is direct gekoppeld aan locaties op aarde. De wijze waarop dat gebeurt wordt beschreven in het ruimtelijk-referentie systeem. Er zijn meerdere methoden om de locatie van objecten vast te leggen. De meest bekende methode is coördinaat  referentie waarbij coördinaten van een locatie worden vastgelegd. Een alternatieve methode is het  lineair referentie systeem. Maar ook kan de locatie van een object indirect beschreven zijn. Er zijn meerdere standaard referentiesystemen beschikbaar. 
 
+Voor meer informatie over ruimtelijke referentiesystemen en de actuele standaarden, zie: http://www.geonovum.nl/onderwerpen/coördinaatsystemen/algemeen-coördinaatsystemen
 
-### WORK IN PROGRESS - Overige verwijzingen naar de website die nodig zijn 
+### WORK IN PROGRESS - Overige verwijzingen naar de website die nodig zijn nog in dit stuk verwerken.
 
 Op de website van Geonovum staat de lijst van actuele, te hanteren geo-standaarden. Zie: 
 
