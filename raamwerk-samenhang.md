@@ -1,12 +1,10 @@
 # Raamwerk van geo-standaarden
 
-**versie**
-2.4 - concept
+**versie:** 2.4 - concept
 
-** versiebeschrijving **
-Het Raamwerk is teruggebracht tot een sterk afgeslankte vorm waarin de samenhang van de standaarden centraal staat. De actuele, aan wijziging onderhevige informatie is verhuisd naar de website van Geonovum.
+**versiebeschrijving:** Het Raamwerk is teruggebracht tot een sterk afgeslankte vorm waarin de samenhang van de standaarden centraal staat. De actuele, aan wijziging onderhevige informatie is verhuisd naar de website van Geonovum.
 
-## Hoofdstk 1 - Inleiding
+## Hoofdstuk 1 - Inleiding
 ### 1.1	Doelgroep en doel van dit Raamwerk van geo-standaarden
 Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden de juiste set te kiezen. Set verwijst daarbij naar een samenhang en integratie van standaarden voor het realiseren van een GII. Bij de keuzes zijn de volgende uitgangspunten gehanteerd: internationale aansluiting, volwassenheid standaarden, openheid van de standaarden en breed gebruik. Met de in het Raamwerk genoemde standaarden is het mogelijk een solide geo-informatie infrastructuur (GII) te bouwen, die compatible is met de internationale ontwikkelingen en aansluit op de nationale e-overheid.
 
@@ -23,3 +21,70 @@ Het GI-beraad heeft in juni 2006 het Raamwerk van geo-standaarden vastgesteld al
 Een aantal geo-standaarden uit het raamwerk staan op de pas toe of leg uit lijst van het [Forum Standaardisatie](http://www.geonovum.nl/onderwerpen/standaardisatie-nationaal-en-internationaal/forum-standaardisatie). Daarnaast zijn een aantal geo-standaarden gerelateerd aan [INSPIRE](http://www.geonovum.nl/onderwerpen/inspire/algemeen-inspire). Dit zijn de INSPIRE technical guidelines, ISO of OGC standaarden die door INSPIRE zijn voorgeschreven, en Nederlandse profielen die compliant zijn met INSPIRE. Hoewel INSPIRE formeel geen geo-standaarden organisatie is kunnen de invoeringsregels van INSPIRE wel als zodanig gebruikt worden. De INSPIRE regels zijn vaak een nadere invulling van de andere standaarden organisaties en de INSPIRE data specificaties voor de thema’s hebben een  duidelijke relatie met de informatiemodellen in Nederland.
 
 Dit raamwerk van geo-standaarden is het verdiepingsdocument waarnaar NORA  3.0 en het [NORA dossier geo-informatie](http://www.geonovum.nl/onderwerpen/geo-architectuur/geo-nora)  verwijzen voor de te hanteren geo-standaarden. 
+
+## Hoofdstuk 2 - Geo-standaarden in samenhang
+**Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om een Geo-Informatie Infrastructuur (GII) te realiseren. In een dergelijke infrastructuur spelen ze ieder een eigen rol. Dit hoofdstuk beschrijft en introduceert de geo-standaarden in samenhang.** 
+
+### 2.1 Wat is geo-informatie?
+Geo-standaarden zijn er om geo-informatie op te slaan, uit te wisselen, te presenteren, enzovoort. Maar wat is eigenlijk geo-informatie? Geo-informatie omvat alle plaatsgebonden kenmerken van informatieobjecten. Alle informatie waarin een ruimtelijk component is opgenomen kan worden beschouwd als geo-informatie. Met een ruimtelijke component of kenmerk wordt een verwijzing naar een plek op de aarde bedoeld. Dit kan een fysiek object zijn, zoals een gebouw of kanaal, een administratieve eenheid, zoals een gemeente of postcode gebied of een abstract gegeven als ‘woonomgevingbeleving’. Een locatie kan statisch of dynamisch zijn; denk bij dit laatste bijvoorbeeld aan vluchtige informatie die slechts op een bepaald moment relevant is, of aan bewegende objecten. 
+
+De laatste jaren heeft het gebruik van geo-informatie in alledaagse webtoepassingen een hoge vlucht genomen door de komst van bijvoorbeeld Bing Maps, Google Earth en Google Maps, en OpenStreetMap.
+
+De kracht van geo-informatie zit in het gemak waarmee op basis van locatie verschillende typen van informatie aan elkaar gerelateerd en met elkaar vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen worden genomen. 
+
+Ruimtelijke vragen worden constant gesteld. In de vorm van *‘Waar?’* en door van een plek of locatie informatie op te vragen:
+* Waar is ruimte om een nieuwe school te plaatsen in een wijk? En staat die niet nabij coffeeshops en cafés? 
+* Wat zijn de openbare voorzieningen in de nabijheid van dit koop- of huurhuis? En is sprake van bodemverontreiniging in de tuin?
+* Waar kan ik het meest nabij mijn afval wegbrengen?
+* Welk gebied wordt met overstroming bedreigd?
+* Waar staan de files?
+* Waar is de woonomgevingbeleving het laagst?
+
+Sommige van deze ‘Waar?’ en ‘Wat is daar?’ vragen kunnen eenvoudig worden beantwoord, veel anderen zijn complexer te beantwoorden en vragen de combinatie van verschillende geo-informatiebronnen van 
+verschillende organisaties. 
+
+Bijvoorbeeld de *‘Waar?’* vraag van de school vereist tenminste:
+* De locaties van de coffeeshops en cafés;
+* De woonadressen van de huidige leerlingen;
+* De mogelijkheden binnen het bestemmingsplan;
+* Reistijd en afstand naar school.
+
+### 2.2 Geo-standaarden: het overzicht
+Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige paragraaf, is het meestal nodig om informatiebronnen van verschillende organisaties met elkaar te combineren. Dit is niet mogelijk zonder standaarden. De afgelopen twintig jaar is internationaal en nationaal gewerkt aan een set van standaarden die het mogelijk maakt om de kracht van geo-informatie ten volle te benutten. 
+
+Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn verschillende dingen nodig:
+
+* Het beschrijven van informatiebronnen met **metadata**, zodat de informatiebronnen **vindbaar** worden. 
+* Het beschrijven van de inhoud van informatiebronnen middels een **informatiemodel**, zodat de **semantiek** en **structuur** bekend zijn. 
+* Het definiëren van **uitwisselformaten**, zodat duidelijk is in wat voor **vorm** de geo-informatie wordt uitgewisseld. 
+* Het inrichten van **web services**, zodat geo-informatie via het web kan worden **geraadpleegd**. 
+* Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
+
+ Figuur 2 laat zien welke rollen standaarden spelen in de werking van een GII. 
+[plaatje2]
+
+Allereerst moet de informatie, die via de GII wordt verspreid, beschreven worden. Dit gebeurt op twee niveaus: het niveau van de dataset en het niveau van de individuele informatie-objecten. Karakteristieken van datasets, zoals de eigenaar en de actualiteit, worden beschreven met behulp van **metadata**. Metadata wijst de weg in onze informatiehuishouding, voorkomt dubbele inwinning en beheer van data en zorgt ervoor dat geo-informatie snel kan worden gevonden.
+
+Voor meer informatie over metadata en de actuele standaarden, zie:
+http://www.geonovum.nl/onderwerpen/metadata
+
+De individuele informatie-objecten worden beschreven met behulp van een **informatiemodel**. Dit ziet u rechtsonder in de figuur. De semantiek (betekenis) en de structuur van de informatie moet bekend zijn zodat gebruikers de informatie optimaal kunnen benutten. Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de afspraken over begrippen en definities van gegevens binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling van informatie.
+
+Voor meer informatie over informatiemodellen en de actuele standaarden, zie:
+http://www.geonovum.nl/onderwerpen/informatiemodellen
+
+Op basis van deze informatiemodellen worden **uitwisselformaten**  gedefinieerd. Waar een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat beschrijft de vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te representeren en uit te wisselen. Een algemene onderverdeling is te maken in vectordata, rasterdata en sensordata. Voor deze drie representatievormen zijn er verschillende standaard uitwisselformaten beschikbaar.
+
+Voor meer informatie over uitwisselformaten en de actuele standaarden, zie:
+http://www.geonovum.nl/onderwerpen/uitwisselformaten
+
+Om de geo-informatie, die conform een bepaald uitwisselformaat beschikbaar wordt gesteld, te kunnen vinden, raadplegen, en downloaden, zijn er **web services** ingericht in een GII. Er zijn verschillende soorten services: de discovery service voor het vinden van geo-informatie op basis van metadata; bijvoorbeeld de view service voor het bekijken van geo-informatie op het web, en de download service om geo-informatie te verkrijgen.  
+
+Voor meer informatie over services en de actuele standaarden, zie:
+http://www.geonovum.nl/onderwerpen/services
+
+Om de geo-informatie visueel te presenteren op een kaart worden er **visualisatieregels** opgesteld. Denk hierbij bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een een standaard visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een view service. 
+
+Voor meer informatie over visualisatie en de actuele standaarden, zie:
+http://www.geonovum.nl/onderwerpen/visualisatie
+
