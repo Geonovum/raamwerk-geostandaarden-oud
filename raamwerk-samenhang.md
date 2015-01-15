@@ -32,6 +32,10 @@ De laatste jaren heeft het gebruik van geo-informatie in alledaagse webtoepassin
 
 De kracht van geo-informatie zit in het gemak waarmee op basis van locatie verschillende typen van informatie aan elkaar gerelateerd en met elkaar vergeleken kunnen worden. Dit helpt mensen enorm bij het verkrijgen van inzicht op basis van informatie en zorgt ervoor dat veel effectiever beslissingen kunnen worden genomen. 
 
+[FiguurThemaRelaties](FiguurThemaRelaties.png)
+
+*Figuur 1 - Thema relaties op basis van lokatie*
+
 Ruimtelijke vragen worden constant gesteld. In de vorm van *‘Waar?’* en door van een plek of locatie informatie op te vragen:
 * Waar is ruimte om een nieuwe school te plaatsen in een wijk? En staat die niet nabij coffeeshops en cafés? 
 * Wat zijn de openbare voorzieningen in de nabijheid van dit koop- of huurhuis? En is sprake van bodemverontreiniging in de tuin?
@@ -61,7 +65,9 @@ Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankeli
 * Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
 
  Figuur 2 laat zien welke rollen standaarden spelen in de werking van een GII. 
-[plaatje2]
+[FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
+
+*Figuur 2 - Geo-standaarden in samenhang*
 
 Allereerst moet de informatie, die via de GII wordt verspreid, beschreven worden. Dit gebeurt op twee niveaus: het niveau van de dataset en het niveau van de individuele informatie-objecten. Karakteristieken van datasets, zoals de eigenaar en de actualiteit, worden beschreven met behulp van **metadata**. Metadata wijst de weg in onze informatiehuishouding, voorkomt dubbele inwinning en beheer van data en zorgt ervoor dat geo-informatie snel kan worden gevonden.
 
