@@ -4,15 +4,15 @@ Het raamwerk geo-standaarden project is een intern Geonovum project. Alleen Geon
 Doel van het project is om een afgeslankte versie van het Raamwerk van Geo-standaarden te schrijven. Zowel het schrijven als het reviewen van het document gebeurt in GitHub. Secundair doel is om medewerkers van het standaardenteam van Geonovum kennis te laten maken met GitHub. 
 
 ## Bijdragen aan dit project
-Werk je bij Geonovum en wil je bijdragen? Vraag Linda om je GitHub account toe te voegen aan dit project. 
+Werk je bij Geonovum en wil je bijdragen? Kloon dit project dan (i.e. maak je eigen kopie). 
 
-Je kunt bijdragen door in het raamwerk document wijzigingen door te voeren; de verschillen tussen versies zijn in GitHub gemakkelijk te zien. 
+Je kunt vervolgens bijdragen door in het raamwerk document wijzigingen door te voeren; de verschillen tussen versies zijn in GitHub gemakkelijk te zien. Als je klaar bent doe je een 'pull request' waarmee je Linda vraagt de wijzigingen over te nemen in de centrale kopie (de 'master') zodat iedereen ze kan zien.
 
 Ook kun je bijdragen door je opmerkingen in commentaar te zetten.  
 
-## Bugs en issues
+## Issues en discussie
 
-## Discussie
+Maak een issue aan voor opmerkingen die over het grotere geheel gaan en misschien discussie opleveren. De discussie kan worden gevoerd door commentaar te leveren op het issue. 
 
 ## Markdown
 
