@@ -65,6 +65,7 @@ Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankeli
 * Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
 
  Figuur 2 laat zien welke rollen standaarden spelen in de werking van een GII. 
+
 [FiguurSamenhangStandaarden.png](FiguurSamenhangStandaarden.png)
 
 *Figuur 2 - Geo-standaarden in samenhang*
