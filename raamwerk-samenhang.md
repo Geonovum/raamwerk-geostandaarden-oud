@@ -23,7 +23,7 @@ Het Raamwerk van geo-standaarden is vergeleken met de vorige versies teruggebrac
 **Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om een Geo-Informatie Infrastructuur (GII) te realiseren. In een dergelijke infrastructuur spelen ze ieder een eigen rol. Dit hoofdstuk beschrijft en introduceert de geo-standaarden in samenhang, en verwijst voor verdieping van elk onderwerp naar de website van Geonovum.** 
 
 ### 2.1 Wat is geo-informatie?
-Geo-standaarden zijn er om met geo-informatie te kunnen werken. Denk hierbij bijvoorbeeld aan het opslaan, uitwisselen, en presenteren van geo-informatie. Maar wat is eigenlijk geo-informatie? Geo-informatie omvat alle plaatsgebonden kenmerken van informatieobjecten. Alle informatie waarin een ruimtelijke component is opgenomen kan worden beschouwd als geo-informatie. Met een ruimtelijke component of kenmerk wordt een verwijzing naar een plek op de aarde bedoeld. Dit kan een fysiek object zijn, zoals een gebouw of kanaal, een administratieve eenheid, zoals een gemeente of postcode gebied of een abstract gegeven als ‘woonomgevingbeleving’. Een locatie kan statisch of dynamisch zijn; denk bij dit laatste bijvoorbeeld aan vluchtige informatie die slechts op een bepaald moment relevant is, of aan bewegende objecten. 
+Geo-standaarden zijn er om met geo-informatie te kunnen werken. Denk hierbij bijvoorbeeld aan het opslaan, uitwisselen, en presenteren van geo-informatie. Maar wat is eigenlijk geo-informatie? Geo-informatie omvat alle plaatsgebonden kenmerken van informatieobjecten. Alle informatie waarin een ruimtelijke component is opgenomen kan worden beschouwd als geo-informatie. Met een ruimtelijke component of kenmerk wordt een verwijzing naar een plek op de aarde bedoeld. Dit kan een fysiek object zijn, zoals een gebouw of kanaal, een administratieve eenheid, zoals een gemeente of postcode gebied of een abstract gegeven als ‘woonomgevingbeleving’. Een locatie kan statisch of dynamisch zijn; denk bij dit laatste bijvoorbeeld aan vluchtige informatie die slechts op een bepaald moment relevant is (bijv. een sensormeting), of aan bewegende objecten. 
 
 De laatste jaren heeft het gebruik van geo-informatie in alledaagse webtoepassingen een hoge vlucht genomen door de komst van bijvoorbeeld Bing Maps, Google Earth, Google Maps, en OpenStreetMap.
 
@@ -34,8 +34,9 @@ De kracht van geo-informatie zit in het gemak waarmee op basis van locatie versc
 *Figuur 1 - Thema relaties op basis van lokatie*
 
 Ruimtelijke vragen worden constant gesteld. In de vorm van *‘Waar?’* en door van een plek of locatie informatie op te vragen:
+
 * Waar is ruimte om een nieuwe school te plaatsen in een wijk? En staat die niet nabij coffeeshops en cafés? 
-* Wat zijn de openbare voorzieningen in de nabijheid van dit koop- of huurhuis? En is sprake van bodemverontreiniging in de tuin?
+* Wat zijn de openbare voorzieningen in de nabijheid van dit koop- of huurhuis? En is er sprake van bodemverontreiniging in de tuin?
 * Waar kan ik het meest nabij mijn afval wegbrengen?
 * Welk gebied wordt met overstroming bedreigd?
 * Waar staan de files?
@@ -45,6 +46,7 @@ Sommige van deze ‘Waar?’ en ‘Wat is daar?’ vragen kunnen eenvoudig worde
 verschillende organisaties. 
 
 Bijvoorbeeld de *‘Waar?’* vraag van de school vereist tenminste:
+
 * De locaties van de coffeeshops en cafés;
 * De woonadressen van de huidige leerlingen;
 * De mogelijkheden binnen het bestemmingsplan;
@@ -61,6 +63,7 @@ Voor het beantwoorden van ruimtelijke vragen zoals de voorbeelden in de vorige p
 *Figuur 2 - Geo-standaarden in samenhang*
 
 Een GII is ervoor bedoeld om geo-informatie beschikbaar te stellen en toegankelijk te maken voor gebruik. Hiervoor zijn verschillende dingen nodig, zoals Figuur 2 laat zien:
+
 * Het beschrijven van informatiebronnen met **metadata**, zodat de informatiebronnen **vindbaar** worden. 
 * Het inrichten van **web services**, zodat geo-informatie via het web kan worden **geraadpleegd**. 
 * Het definiëren van **visualisatieregels**, zodat geo-informatie op een eenduidige manier wordt **gepresenteerd** aan gebruikers. 
@@ -74,19 +77,23 @@ Voor al deze componenten van een GII zijn standaarden beschikbaar.
 Allereerst moet de informatie, die via de GII wordt verspreid, beschreven worden. Dit gebeurt op twee niveaus: het niveau van de dataset en het niveau van de individuele informatie-objecten. Karakteristieken van datasets, zoals de eigenaar en de actualiteit, worden beschreven met behulp van **metadata**. Metadata wijst de weg in onze informatiehuishouding, voorkomt dubbele inwinning en beheer van data en zorgt ervoor dat geo-informatie snel kan worden gevonden.
 
 Voor meer informatie over metadata en de actuele standaarden, zie:
-http://www.geonovum.nl/onderwerpen/metadata
+[http://www.geonovum.nl/onderwerpen/metadata](http://www.geonovum.nl/onderwerpen/metadata)
 
 ### Services
-Om de geo-informatie te kunnen vinden, raadplegen, en downloaden, zijn er **web services** ingericht in een GII. Er zijn verschillende soorten services: bijvoorbeeld de discovery service voor het vinden van geo-informatie op basis van metadata; de view service voor het bekijken van geo-informatie op het web, en de download service om geo-informatie te verkrijgen.  
+Om de geo-informatie te kunnen vinden, raadplegen, en downloaden, zijn er **web services** ingericht in een GII. Er zijn verschillende soorten services, bijvoorbeeld 
+
+* de [discovery service](http://www.geonovum.nl/onderwerpen/services/catalogue-service) voor het vinden van geo-informatie op basis van metadata; 
+* de [view service](http://www.geonovum.nl/onderwerpen/services/web-map-service-wms) voor het bekijken van geo-informatie op het web;
+* de [download service](http://www.geonovum.nl/onderwerpen/services/web-feature-service-wfs) om geo-informatie te verkrijgen.  
 
 Voor meer informatie over services en de actuele standaarden, zie:
-http://www.geonovum.nl/onderwerpen/services
+[http://www.geonovum.nl/onderwerpen/services](http://www.geonovum.nl/onderwerpen/services)
 
 #### Visualisatie
 Om de geo-informatie visueel te presenteren op een kaart worden er **visualisatieregels** opgesteld. Denk hierbij bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een een standaard visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een view service. 
 
 Voor meer informatie over visualisatie en de actuele standaarden, zie:
-http://www.geonovum.nl/onderwerpen/visualisatie
+[http://www.geonovum.nl/onderwerpen/visualisatie](http://www.geonovum.nl/onderwerpen/services)
 
 #### Informatiemodellen
 De individuele informatie-objecten in een dataset worden beschreven met behulp van een **informatiemodel**. Dit ziet u rechtsonder in de figuur. De semantiek (betekenis) en de structuur van de informatie moet bekend zijn zodat gebruikers de informatie optimaal kunnen benutten. Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de afspraken over begrippen en definities van gegevens binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling van informatie.
@@ -98,7 +105,7 @@ http://www.geonovum.nl/onderwerpen/informatiemodellen
 Op basis van deze informatiemodellen worden **uitwisselformaten**  gedefinieerd. Waar een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat de vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te representeren en uit te wisselen. Een algemene onderverdeling is te maken in vectordata, rasterdata en sensordata. Voor deze drie representatievormen zijn er verschillende standaard uitwisselformaten beschikbaar.
 
 Voor meer informatie over uitwisselformaten en de actuele standaarden, zie:
-http://www.geonovum.nl/onderwerpen/uitwisselformaten
+[http://www.geonovum.nl/onderwerpen/uitwisselformaten](http://www.geonovum.nl/onderwerpen/uitwisselformaten)
 
 ### Ruimtelijke referentiesystemen
 Geo-informatie is direct gekoppeld aan locaties op aarde. De wijze waarop dat gebeurt wordt beschreven in het ruimtelijk-referentie systeem. Er zijn meerdere methoden om de locatie van objecten vast te leggen. De meest bekende methode is coördinaat  referentie waarbij coördinaten van een locatie worden vastgelegd. Een alternatieve methode is het  lineair referentie systeem. Maar ook kan de locatie van een object indirect beschreven zijn. Er zijn meerdere standaard referentiesystemen beschikbaar. 
