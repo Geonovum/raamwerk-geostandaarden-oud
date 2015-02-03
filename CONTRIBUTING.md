@@ -6,6 +6,8 @@ Doel van het project is om een afgeslankte versie van het Raamwerk van Geo-stand
 ## Bijdragen aan dit project
 Werk je bij Geonovum en wil je bijdragen? Kloon dit project dan (i.e. maak je eigen kopie). 
 
+Nog geen ervaring met github? Lees [hier](https://github.com/Geonovum/geonovum/blob/master/handleidingen/starten-met-github.md) hoe ja kan beginnen. 
+
 Je kunt vervolgens bijdragen door in het raamwerk document wijzigingen door te voeren; de verschillen tussen versies zijn in GitHub gemakkelijk te zien. Als je klaar bent doe je een 'pull request' waarmee je Linda vraagt de wijzigingen over te nemen in de centrale kopie (de 'master') zodat iedereen ze kan zien.
 
 Ook kun je bijdragen door je opmerkingen in commentaar te zetten.  
