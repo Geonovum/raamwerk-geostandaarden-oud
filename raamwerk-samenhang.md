@@ -9,7 +9,7 @@ Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid
 Het Raamwerk van geo-standaarden is geschreven voor iedereen die betrokken is bij het toepassen van standaarden voor geo-informatie. Zoals informatiemanagers, stuurgroepleden, beleidsmedewerkers, projectleiders, adviseurs, architecten, IT-leveranciers, en voor personen die standaarden en specificaties implementeren in hun organisatie en willen kunnen integreren met andere organisaties in Nederland en Europa.
 
 ### 1.2 Status van het Raamwerk van geo-standaarden
-Om zo breed mogelijk draagvlak voor dit Raamwerk te creëren wordt het Raamwerk binnen de overheid formeel belegd via het GI-Beraad, de basislijst open standaarden en de NORA. Daarnaast zijn de in het Raamwerk genoemde standaarden geharmoniseerd met de voor INSPIRE geldende richtlijnen.
+Om zo breed mogelijk draagvlak voor dit Raamwerk te creëren wordt het Raamwerk binnen de overheid formeel belegd via het [Geo-Informatie Beraad](http://www.geonovum.nl/onderwerpen/standaardisatie-nationaal-en-internationaal/gi-beraad), de basislijst open standaarden en de Nederlandse Overheid Referentie Architectuur [PDF](http://www.geonovum.nl/sites/default/files/nora3.0.pdf). Daarnaast zijn de in het Raamwerk genoemde standaarden geharmoniseerd met de voor INSPIRE geldende richtlijnen.
 
 Het GI-beraad heeft in juni 2006 het Raamwerk van geo-standaarden vastgesteld als verplichtend voor de GI-beraad deelnemers. De programmaraad stelt elke nieuwe versie van het raamwerk vast.
 
